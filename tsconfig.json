@@ -1,6 +1,8 @@
 {
     "compileOnSave": true,
-    "include": [
-        "./index.ts"
-    ],
+    "include": ["./*"],
+    "compilerOptions": {
+        "target": "ES6",
+        "removeComments": true
+    }
 }
